@@ -1,0 +1,40 @@
+.hero {
+    height: 90vh;
+    width: 100vw;
+
+    &__inner {
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        text-align: center;
+        height: 80%;
+    }
+    &__text {
+        font-family: 'Great Vibes', sans-serif;
+        // position: absolute;
+        // top: 50%;
+        // left: 15%;
+        // text-align: center;
+        // transform: translateY(-50%);
+        &-title {
+            font-size: 90px;
+            color: var(--gold);
+            margin-bottom: 10%;
+        }
+        &-descr {
+            font-size: 40px;
+            color: var(--text);
+        }
+    }
+    &__button {
+        // position: absolute;
+        // left: 50%;
+        // transform: translateX(-50%);
+        // bottom: 10%;
+        &-con {
+            display: flex;
+            width: 100%;
+            justify-content: center;
+        }
+    }
+}

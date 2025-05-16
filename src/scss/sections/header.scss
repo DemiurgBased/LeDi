@@ -1,0 +1,17 @@
+.header {
+    height: 10vh;
+    padding-top: 15px;
+}
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &__list {
+        display: flex;
+        gap: 60px;
+        font-family: 'Great Vibes', sans-serif;
+        font-size: 28px;
+        color: var(--text);
+        font-weight: 500;
+    }
+}

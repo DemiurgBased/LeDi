@@ -1,0 +1,11 @@
+* {
+    text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+.bg-img {
+    background-image: url('../assets/images/hero-bg-f.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
