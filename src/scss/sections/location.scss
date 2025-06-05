@@ -1,0 +1,55 @@
+.location {
+    padding: 100px 0px;
+    background: var(--bg);
+    &__inner {
+        display: flex;
+        justify-content: center;
+        gap: 100px;
+        font-family: 'Comfortaa', sans-serif;
+        color: var(--text);
+        margin-top: 70px;
+    }
+    &__title {
+        text-align: center;
+        font-size: 48px;
+        font-family: 'Great Vibes', sans-serif;
+        color: var(--text);
+        border-bottom: var(--gold) 2px solid;
+        padding: 5px;
+        display: inline-block;
+        &-wrapper {
+            display: flex;
+            justify-content: center;
+        }
+    }
+    &__socials {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        &-wrapper {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+    }
+    &__socials img {
+        width: 50px;
+    }
+    &__tel,
+    &__tel:visited,
+    &__tel:hover,
+    &__tel:active {
+    color: var(--text);
+    text-decoration: none;
+    }
+    &__map {
+        border: 3px var(--gold) solid;
+        border-radius: 45px;
+        overflow: hidden;
+    }
+    &__text {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+}

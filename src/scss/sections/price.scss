@@ -1,0 +1,100 @@
+.price {
+    padding: 100px 0;
+    background-color: var(--bg);
+    text-align: center;
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 40px;
+    }
+    &__right {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        font-family: 'Comfortaa', sans-serif;
+    }
+    &__left {
+        &-list {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+        &-title {
+            margin-bottom: 10px;
+            font-size: 42px;
+            font-family: 'Great Vibes', sans-serif;
+        }
+    }
+}
+
+.manic {
+        font-family: 'Comfortaa', sans-serif;
+        width: 50vw;
+        height: 70vh;
+        background-image: url('../assets/images/price-manic.png');
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 45px;
+        border: 3px solid var(--gold);
+        box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.25);
+        display: none;
+}
+.pedic {
+        font-family: 'Comfortaa', sans-serif;
+        width: 50vw;
+        height: 70vh;
+        background-image: url('../assets/images/price-pedic.jpg');
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 45px;
+        border: 3px solid var(--gold);
+        box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.25);
+        display: none;
+}
+.eyebrow {
+        font-family: 'Comfortaa', sans-serif;
+        width: 50vw;
+        height: 70vh;
+        background-image: url('../assets/images/price-eyebrow.jpg');
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 45px;
+        border: 3px solid var(--gold);
+        box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.25);
+        display: none;
+}
+.massage {
+        font-family: 'Comfortaa', sans-serif;
+        width: 50vw;
+        height: 70vh;
+        background-image: url('../assets/images/price-massage.jpg');
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 45px;
+        border: 3px solid var(--gold);
+        box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.25);
+        display: none;
+}
+
+.active {
+    display: flex;
+}
+.inactive {
+    display: none;
+}

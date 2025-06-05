@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LeDi</title>
     <link rel="stylesheet" href="./scss/main.scss">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
 </head>
 
 <body>
@@ -14,31 +15,233 @@
             <div class="container">
                 <nav class="nav">
                     <ul class="nav__list">
-                        <li class="nav__item"><a href="#">Главная</a></li>
-                        <li class="nav__item"><a href="#">Услуги</a></li>
-                        <li class="nav__item"><a href="#">Отзывы</a></li>
-                        <li class="nav__item"><a href="#">Обучение</a></li>
+                        <li class="nav__item"><a href="#main">Главная</a></li>
+                        <li class="nav__item"><a href="#price">Услуги</a></li>
+                        <li class="nav__item"><a href="#testimonials">Отзывы</a></li>
+                        <li class="nav__item"><a href="#education">Обучение</a></li>
                     </ul>
                 </nav>
             </div>
         </header>
         <section class="hero">
             <div class="container">
-                    <div class="hero__inner">
-                        <div class="hero__text">
-                            <p class="hero__text-title">
-                                LeDi
-                            </p>
-                            <p class="hero__text-descr">
-                                Ваш идеальный образ <br>
-                                начинается здесь
-                            </p>
-                        </div>
+                <div class="hero__inner">
+                    <div class="hero__text">
+                        <p class="hero__text-title">
+                            LeDi
+                        </p>
+                        <p class="hero__text-descr">
+                            Ваш идеальный образ <br>
+                            начинается здесь
+                        </p>
                     </div>
-                    <div class="hero__button-con"><button href="#" class="button hero__button">Записаться</button></div>
+                </div>
+                <div class="hero__button-con"><a href="#location" class="button hero__button">Записаться</a></div>
             </div>
         </section>
     </div>
+    <section class="exp" id="main">
+        <div class="container">
+            <div class="exp__wrapper">
+                <p class="exp__title title">Ваша красота — наша страсть уже 7 лет!</p>
+                <p class="exp__descr">Создаём идеальный маникюр, который подчеркнёт вашу индивидуальность</p>
+                <ul class="exp__cards">
+                    <li class="exp__cards-item">
+                        <img src="./assets/images/exp-nail1.jpg" alt="1">
+                    </li>
+                    <li class="exp__cards-item">
+                        <img src="./assets/images/exp-nail2.jpg" alt="2">
+                    </li>
+                    <li class="exp__cards-item">
+                        <img src="./assets/images/exp-nail3.jpg" alt="3">
+                    </li>
+                    <li class="exp__cards-item">
+                        <img src="./assets/images/exp-nail4.jpg" alt="4">
+                    </li>
+                </ul>
+                <a href="#testimonials" class="exp__button button">Больше наших работ</a>
+            </div>
+        </div>
+    </section>
+    <section class="price" id="price">
+        <div class="container">
+            <p class="price__title title">Услуги</p>
+            <div class="price__inner">
+                <div class="price__left">
+                    <div class="manic active" id="manic">
+                        <p class="price__left-title">Маникюр</p>
+                        <ul class="price__left-list">
+                            <li class="price__left-item">Маникюр - 700</li>
+                            <li class="price__left-item">Покрытие лаком - 250</li>
+                            <li class="price__left-item">Гель лак - 2100</li>
+                            <li class="price__left-item">Гель лак + укрепление - 2500</li>
+                            <li class="price__left-item">Снятие гель лака - 500</li>
+                            <li class="price__left-item">Снятие нарощенных ногтей - 600</li>
+                            <li class="price__left-item">Снятие лака - 150</li>
+                            <li class="price__left-item">Ремонт 1 ногтя - 250</li>
+                            <li class="price__left-item">Наращивание ногтей - 2800</li>
+                            <li class="price__left-item">Коррекция нарощенных ногтей - 2600</li>
+                            <li class="price__left-item">Дизайн 1 ногтя - 50-200</li>
+                            <li class="price__left-item">Френч - 300</li>
+                            <li class="price__left-item">SPA уход - 800</li>
+                        </ul>
+                    </div>
+                    <div class="pedic" id="pedic">
+                        <p class="price__left-title">Педикюр</p>
+                        <ul class="price__left-list">
+                            <li class="price__left-item">Обработка стопы + гель лак - 2300</li>
+                            <li class="price__left-item">Обработка стопы + лак - 1800</li>
+                            <li class="price__left-item">Обработка стопы без покрытия - 1500</li>
+                            <li class="price__left-item">Обработка пальчики + гель лак (база) - 1500</li>
+                            <li class="price__left-item">SPA - уход - 1000</li>
+                        </ul>
+                    </div>
+                    <div class="eyebrow" id="eyebrow">
+                        <p class="price__left-title">Брови</p>
+                        <ul class="price__left-list">
+                            <li class="price__left-item">Коррекция бровей - 200</li>
+                            <li class="price__left-item">Коррекция бровей сахаром - 500</li>
+                            <li class="price__left-item">Окрашивание бровей краской - 250</li>
+                            <li class="price__left-item">Окрашивание бровей хной - 450</li>
+                            <li class="price__left-item">Окрашивание ресниц - 200</li>
+                            <li class="price__left-item">Комплекс (хна + коррекция) - 650</li>
+                            <li class="price__left-item">Комплекс (краска + коррекция) - 450</li>
+                            <li class="price__left-item">Ламинирование ресниц - 1200</li>
+                            <li class="price__left-item">Ламинирование ресниц + окрашивание - 1400</li>
+                        </ul>
+                    </div>
+                    <div class="massage" id="massage">
+                        <p class="price__left-title">Аппаратный массаж</p>
+                        <ul class="price__left-list">
+                            <li class="price__left-item">Rf лифтинг лица - 700p/30мин</li>
+                            <li class="price__left-item">Вакуум - 1000p/40мин</li>
+                            <li class="price__left-item">Кавитация - 950p/40мин</li>
+                            <li class="price__left-item">Липолайзер - 700p/40мин</li>
+                            <li class="price__left-item">Rf лифтинг тела - 900p/40мин</li>
+                            <li class="price__left-item">Вакуум + кавитация - 800p/80мин</li>
+                            <li class="price__left-item">Вакуум + rf лифтинг - 1700p/80 мин</li>
+                            <li class="price__left-item">Вакуум + кавитация + липолайзер - 2200p/120мин</li>
+                            <li class="price__left-item">Вакуум + кавитация + rf лифтинг - 2400p/120мин</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="price__right">
+                    <button class="price__right-manic price__button" id="manic-btn">Маникюр</button>
+                    <button class="price__right-pedic price__button" id="pedic-btn">Педикюр</button>
+                    <button class="price__right-eyebrow price__button" id="eyebrow-btn">Брови</button>
+                    <button class="price__right-massage price__button" id="massage-btn">Аппаратный массаж</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="testimonials">
+        <div class="container">
+            <p id="testimonials" class="testimonials__title title">Отзывы</p>
+            <p class="testimonials__descr">Довольные клиенты — лучшая награда!<br>Смотрите больше отзывов в наших
+                социальных сетях</p>
+            <div class="swiper testimonials__slider">
+                <div class="swiper-wrapper testimonials__slider-wrapper">
+                    <div class="swiper-slide testimonials__slider-slide">
+                        <div class="testimonials__slider-slide-inner">
+                            <div class="testimonials__slider-slide-img"></div>
+                            <p class="testimonials__slider-slide-title">Алина</p>
+                            <p class="testimonials__slider-slide-descr">Далеко-далеко за словесными горами в стране
+                                гласных и согласных живут.</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide testimonials__slider-slide">
+                        <div class="testimonials__slider-slide-inner">
+                            <div class="testimonials__slider-slide-img"></div>
+                            <p class="testimonials__slider-slide-title">Алина</p>
+                            <p class="testimonials__slider-slide-descr">Далеко-далеко за словесными горами в стране
+                                гласных и согласных живут.</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide testimonials__slider-slide">
+                        <div class="testimonials__slider-slide-inner">
+                            <div class="testimonials__slider-slide-img"></div>
+                            <p class="testimonials__slider-slide-title">Алина</p>
+                            <p class="testimonials__slider-slide-descr">Далеко-далеко за словесными горами в стране
+                                гласных и согласных живут.</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide testimonials__slider-slide">
+                        <div class="testimonials__slider-slide-inner">
+                            <div class="testimonials__slider-slide-img"></div>
+                            <p class="testimonials__slider-slide-title">Алина</p>
+                            <p class="testimonials__slider-slide-descr">Далеко-далеко за словесными горами в стране
+                                гласных и согласных живут.</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide testimonials__slider-slide">
+                        <div class="testimonials__slider-slide-inner">
+                            <div class="testimonials__slider-slide-img"></div>
+                            <p class="testimonials__slider-slide-title">Алина</p>
+                            <p class="testimonials__slider-slide-descr">Далеко-далеко за словесными горами в стране
+                                гласных и согласных живут.</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide testimonials__slider-slide">
+                        <div class="testimonials__slider-slide-inner">
+                            <div class="testimonials__slider-slide-img"></div>
+                            <p class="testimonials__slider-slide-title">Алина</p>
+                            <p class="testimonials__slider-slide-descr">Далеко-далеко за словесными горами в стране
+                                гласных и согласных живут.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonials__slider-controls">
+                    <div class="testimonials__slider-pagination"></div>
+                    <div class="testimonials__slider-btns">
+                            <img src="./assets/images/arrow-left.jpg" alt="" class="testimonials__slider-prevbtn">
+                            <img src="./assets/images/arrow-right.jpg" alt="" class="testimonials__slider-nextbtn">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="education" id="education">
+        <div class="container education__container">
+            <div class="education__top">
+                <p class="education__title title">Обучение</p>
+            </div>
+            <div class="education__bot">
+                <div class="education__descr1">Мечтаете стать мастером ногтевого сервиса или бровистом?</div>
+                <div class="education__descr2">Запишитесь на обучение в нашей студии и получите все необходимые
+                    знания,<br> практику и поддержку для старта в профессии.</div>
+                <a href="#location" class="education__button button">Записаться</a>
+            </div>
+        </div>
+    </section>
+    <section class="location" id="location">
+        <div class="container">
+            <div class="location__title-wrapper">
+                <div class="location__title">Запишитесь к нам на прием</div>
+            </div>
+            <div class="location__inner">
+                <div class="location__map">
+                    <script type="text/javascript" charset="utf-8" async
+                        src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A0945364eb6d0d9a6b7982bc091ba7c8403c4388d02c123d7379c64fee835d969&amp;width=600&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
+                </div>
+                <div class="location__text">
+                    <a class="location__tel" href="tel:+79053003537">Телефон для записи: 89053003537</a>
+                    <p class="location__address">Адрес: Самара, улица Промышленности 277</p>
+                    <div class="location__socials">
+                        <p class="location__socials-text">Наши социальные сети: </p>
+                        <div class="location__socials-wrapper">
+                            <a href="#" class="lcoation__socials-insta"><img src="./assets/images/instalogo.jpg"
+                                    alt="insta"></a>
+                            <a href="#" class="lcoation__socials-vk"><img src="./assets/images/vklogo.jpg"
+                                    alt="insta"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./js/testimonialsSlider.js"></script>
+    <script src="./js/price.js"></script>
 </body>
 
 </html>

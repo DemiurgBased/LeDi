@@ -11,11 +11,6 @@
     }
     &__text {
         font-family: 'Great Vibes', sans-serif;
-        // position: absolute;
-        // top: 50%;
-        // left: 15%;
-        // text-align: center;
-        // transform: translateY(-50%);
         &-title {
             font-size: 90px;
             color: var(--gold);
@@ -27,14 +22,11 @@
         }
     }
     &__button {
-        // position: absolute;
-        // left: 50%;
-        // transform: translateX(-50%);
-        // bottom: 10%;
         &-con {
             display: flex;
             width: 100%;
             justify-content: center;
+            font-family: 'Comfortaa', sans-serif;
         }
     }
 }

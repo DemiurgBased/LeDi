@@ -1,0 +1,48 @@
+.education {
+    padding: 100px 0px 80px;
+    background-image: url('../assets/images/educ-bg.jpg');
+    &__container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 300px;
+    }
+    &__top {
+        width: 280px;
+        height: 80px;
+        // background: #DCC5FF;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 45px;
+        text-align: center;
+        // box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.25);
+    }
+    &__bot {
+        width: 900px;
+        height: 240px;
+        background: #DCC5FF;
+        border-radius: 45px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+        box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.25);
+    }
+    &__descr1 {
+        font-family: 'Comfortaa', sans-serif;
+        font-size: 22px;
+        font-weight: 500;
+    }
+    &__descr2 {
+        font-family: 'Comfortaa', sans-serif;
+        font-size: 18px;
+        text-align: center;
+    }
+    &__button {
+        font-family: 'Comfortaa', sans-serif;
+    }
+
+}
