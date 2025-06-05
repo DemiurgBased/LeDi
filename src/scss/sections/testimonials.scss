@@ -25,26 +25,23 @@
             align-items: center;
         }
         &-prevbtn {
-            width: 100px;
-            height: 40px;
-            border-radius: 15px;
-            background-image: url('../assets/images/arrow-left.jpg');
             cursor: pointer;
+            width: 60px;
+            transform: rotate(180deg);
+                        background-color: #DCC5FF;
+            border-radius: 100%;
         }
-        // &-prevbtn img {
-        //     width: 40px;
-        //     height: 40px;
-        // }
-        // &-nextbtn img {
-        //     width: 40px;
-        //     height: 40px;
-        // }
+        &-prevbtn path {
+            fill: #ad95d1;
+        }
         &-nextbtn {
-            width: 100px;
-            height: 40px;
-            border-radius: 15px;
-            background: #ad95d1;
             cursor: pointer;
+            width: 60px;
+            background-color: #DCC5FF;
+            border-radius: 100%;
+        }
+        &-nextbtn path {
+            fill: #ad95d1;
         }
         &-pagination {
             position: relative !important;

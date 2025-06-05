@@ -9,8 +9,10 @@ const massageBtn = document.getElementById('massage-btn');
 
 manicBtn.addEventListener('click', () => {
 manic.classList.add('active');
-if (pedic.classList.contains('active')) {
+manicBtn.classList.add('active-btn');
+if (pedic.classList.contains('active') && pedicBtn.classList.contains('active-btn')) {
     pedic.classList.remove('active')
+    pedicBtn.classList.remove('active-btn')
 }
 if (eyebrow.classList.contains('active')) {
     eyebrow.classList.remove('active')
@@ -22,8 +24,10 @@ if (massage.classList.contains('active')) {
 
 pedicBtn.addEventListener('click', () => {
 pedic.classList.add('active');
-if (manic.classList.contains('active')) {
+pedicBtn.classList.add('active-btn');
+if (manic.classList.contains('active') && manicBtn.classList.contains('active-btn')) {
     manic.classList.remove('active')
+    manicBtn.classList.remove('active-btn')
 }
 if (eyebrow.classList.contains('active')) {
     eyebrow.classList.remove('active')

@@ -12,6 +12,8 @@
         flex-direction: column;
         gap: 20px;
         font-family: 'Comfortaa', sans-serif;
+        align-items: center;
+        width: 400px;
     }
     &__left {
         &-list {
@@ -95,6 +97,9 @@
 .active {
     display: flex;
 }
-.inactive {
-    display: none;
+.active-btn {
+    width: 350px !important;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25) !important;
+    background: linear-gradient(180deg, #cba9ff 0%, #a689d4 100%) !important;
+    font-size: 24px !important;
 }
