@@ -1,0 +1,28 @@
+.footer {
+    background: #DCC5FF;
+    height: 130px;
+    &__inner-top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100px;
+        padding-top: 10px;
+    }
+    &__inner-bot {
+        height: 30px;
+        text-align: center;
+        color: var(--gold);
+    }
+    &__logo {
+        font-size: 64px;
+        font-family: 'Great Vibes', sans-serif;
+        color: var(--gold);
+    }
+    &__contacts {
+        font-size: 24px;
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        justify-content: space-between;
+    }
+}

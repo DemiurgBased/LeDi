@@ -10,57 +10,69 @@ const massageBtn = document.getElementById('massage-btn');
 manicBtn.addEventListener('click', () => {
 manic.classList.add('active');
 manicBtn.classList.add('active-btn');
-if (pedic.classList.contains('active') && pedicBtn.classList.contains('active-btn')) {
+if (pedic.classList.contains('active')) {
     pedic.classList.remove('active')
     pedicBtn.classList.remove('active-btn')
 }
 if (eyebrow.classList.contains('active')) {
     eyebrow.classList.remove('active')
+    eyebrowBtn.classList.remove('active-btn')
 }
 if (massage.classList.contains('active')) {
     massage.classList.remove('active')
+    massageBtn.classList.remove('active-btn')
 }
 });
 
 pedicBtn.addEventListener('click', () => {
 pedic.classList.add('active');
 pedicBtn.classList.add('active-btn');
-if (manic.classList.contains('active') && manicBtn.classList.contains('active-btn')) {
+if (manic.classList.contains('active')) {
     manic.classList.remove('active')
     manicBtn.classList.remove('active-btn')
 }
 if (eyebrow.classList.contains('active')) {
     eyebrow.classList.remove('active')
+    eyebrowBtn.classList.remove('active-btn')
 }
 if (massage.classList.contains('active')) {
     massage.classList.remove('active')
+    massageBtn.classList.remove('active-btn')
 }
 });
 
 
 eyebrowBtn.addEventListener('click', () => {
     eyebrow.classList.add('active')
+    eyebrowBtn.classList.add('active-btn')
     if (manic.classList.contains('active')) {
     manic.classList.remove('active')
+    manicBtn.classList.remove('active-btn')
     }
     if (pedic.classList.contains('active')) {
         pedic.classList.remove('active')
+        pedicBtn.classList.remove('active-btn')
     }
     if (massage.classList.contains('active')) {
         massage.classList.remove('active')
+        massageBtn.classList.remove('active-btn')
     }
 
 });
 
 massageBtn.addEventListener('click', () => {
     massage.classList.add('active')
+    massageBtn.classList.add('active-btn')
     if (manic.classList.contains('active')) {
     manic.classList.remove('active')
+    manicBtn.classList.remove('active-btn')
     }
     if (pedic.classList.contains('active')) {
         pedic.classList.remove('active')
+        pedicBtn.classList.remove('active-btn')
     }
     if (eyebrow.classList.contains('active')) {
         eyebrow.classList.remove('active')
+        eyebrowBtn.classList.remove('active-btn')
     }
 });

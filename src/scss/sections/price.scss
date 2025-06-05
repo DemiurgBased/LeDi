@@ -20,11 +20,16 @@
             display: flex;
             flex-direction: column;
             gap: 8px;
+            width: 600px;
         }
         &-title {
             margin-bottom: 10px;
             font-size: 42px;
             font-family: 'Great Vibes', sans-serif;
+        }
+        &-item {
+            display: flex;
+            justify-content: space-between;
         }
     }
 }
@@ -37,12 +42,13 @@
         background-size: cover;
         background-position: center;
         display: flex;
-        justify-content: center;
+        justify-content: start;
         align-items: center;
         flex-direction: column;
         border-radius: 45px;
         border: 3px solid var(--gold);
         box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.25);
+        padding: 25px;
         display: none;
 }
 .pedic {
@@ -53,13 +59,14 @@
         background-size: cover;
         background-position: center;
         display: flex;
-        justify-content: center;
         align-items: center;
         flex-direction: column;
         border-radius: 45px;
         border: 3px solid var(--gold);
         box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.25);
         display: none;
+        justify-content: start;
+        padding: 25px;
 }
 .eyebrow {
         font-family: 'Comfortaa', sans-serif;
@@ -69,7 +76,8 @@
         background-size: cover;
         background-position: center;
         display: flex;
-        justify-content: center;
+        justify-content: start;
+        padding: 25px;
         align-items: center;
         flex-direction: column;
         border-radius: 45px;
@@ -85,7 +93,8 @@
         background-size: cover;
         background-position: center;
         display: flex;
-        justify-content: center;
+        justify-content: start;
+        padding: 25px;
         align-items: center;
         flex-direction: column;
         border-radius: 45px;
