@@ -23,3 +23,26 @@
     text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
     transition: 0.3s;
 }
+
+.home-button-svg {
+    cursor: pointer;
+    width: 70px;
+    background-color: #ad95d1;
+    border-radius: 100%;
+    transform: rotate(270deg);
+
+    border-radius: 100% !important;
+}
+.home-button-svg path {
+    fill: var(--purple);
+}
+.home-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    opacity: 0;
+    transition: 0.5s;
+}
+.active-homeBtn {
+    opacity: 1;
+}
