@@ -1,7 +1,7 @@
 .button {
     border: 1px solid #6a45a0;
-    border-radius: 45px;
-    padding: 15px 40px;
+    border-radius: 2.8rem;
+    padding: 1rem 2.5rem;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
     background: linear-gradient(180deg, #cab8e6 0%, #9b7dc8 100%);
     color: var(--text);
@@ -9,14 +9,14 @@
     transition: 0.3s;
 }
 .button:hover {
-    transform: translateY(-7px);
+    transform: translateY(-0.4375rem);
 }
 
 .price__button {
     border: 1px solid #6a45a0;
-    border-radius: 45px;
-    padding: 15px 40px;
-    width: 300px;
+    border-radius: 2.8rem;
+    padding: 1rem 2.5rem;
+    width: 18.75rem;
     box-shadow: unset;
     background: linear-gradient(180deg, #cab8e6 0%, #be9dee 100%);
     color: var(--text);
