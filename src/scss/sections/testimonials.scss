@@ -23,6 +23,7 @@
             padding-right: 40px;
             justify-content: space-between;
             align-items: center;
+            padding: 7px;
         }
         &-prevbtn {
             cursor: pointer;
@@ -30,6 +31,7 @@
             transform: rotate(180deg);
                         background-color: #DCC5FF;
             border-radius: 100%;
+            transition: 0.2s;
         }
         &-prevbtn path {
             fill: #ad95d1;
@@ -57,39 +59,83 @@
             display: flex
         }
         &-slide {
+            
             &-inner {
                 display: flex;
                 flex-direction: column;
                 align-items: center;
                 justify-content: start;
-                width: 300px;
+                width: 290px;
                 background: #DCC5FF;
-                height: 425px;
+                height: 375px;
                 border-radius: 45px;
+                border: 2px solid #DCC5FF;
+                padding: 10px;
+                
             }
-            &-img {
-                background-image: url('../assets/images/exp-nail1.jpg');
-                width: 250px;
-                height: 250px;
+            &-img img {
+                width: 280px;
+                height: 180px;
                 background-position: center;
                 background-size: cover;
-                margin: 25px;
+                margin: 5px;
                 margin-bottom: 10px;
-                border-radius: 45px;
+                border-bottom-left-radius: 5px;
+                border-bottom-right-radius: 5px;
+                border-top-left-radius: 45px;
+                border-top-right-radius: 45px;
             }
-            &-title {
-                width: 250px;
-                font-size: 22px;
-                font-family: 'Comfortaa', sans-serif;
-                color: var(--text);
-                font-weight: 500;
-                margin-bottom: 10px;
+            &-bottom {
+                display: flex;
+                flex-direction: column;
+                width: 260px;
+                height: 150px;
+                gap: 10px;
+                border-bottom-left-radius: 45px;
+                border-bottom-right-radius: 45px;
+                border-top-left-radius: 5px;
+                border-top-right-radius: 5px;
+                background: var(--bg);
+                padding: 10px;
+
+
+            }
+            &-stars {
+                scale: 0.8;
+                margin-left: -10px;
+            }
+            &-person {
+                display: flex;
+                justify-content: start;
+                align-items: center;
+                gap: 10px;
+                &-text {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 5px;
+                    height: 50px;
+                    width: 120px;
+                    text-align: start;
+                }
+                &-text img {
+                    height: 20px;
+                }
+            }
+            &-ava {
+                width: 50px;
+                height: 50px;
+                border-radius: 100%;
+            }
+            &-name {
+                font-family: 'Instagram Sans CYR', sans-serif;
+                font-size: 18px;
             }
             &-descr {
                 width: 250px;
-                font-size: 16px;
+                font-size: 18px;
                 font-family: 'Comfortaa', sans-serif;
                 color: var(--text);
+                text-align: start;
             }
         }
     }
@@ -99,4 +145,13 @@
     background: #ad95d1 !important;
     border-radius: 45px !important;
     overflow: hidden !important;
+}
+
+.testimonials__slider-prevbtn:hover {
+    scale: 1.1;
+    
+}
+.testimonials__slider-nextbtn:hover {
+    scale: 1.1;
+    
 }
