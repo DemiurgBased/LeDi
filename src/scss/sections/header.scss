@@ -1,6 +1,6 @@
 .header {
     height: 10vh;
-    padding-top: 15px;
+    padding-top: 1rem;
 }
 .nav {
     display: flex;
@@ -8,15 +8,15 @@
     align-items: center;
     &__list {
         display: flex;
-        gap: 60px;
+        gap: 3.75rem;
         font-family: 'Great Vibes', sans-serif;
-        font-size: 28px;
+        font-size: 1.75rem;
         color: var(--text);
         font-weight: 500;
     }
     &__item:hover {
         border-bottom: 2px solid var(--gold);
-        transform: translateY(7px);
+        transform: translateY(0.44rem);
     }
     &__item {
         transition: 0.3s;

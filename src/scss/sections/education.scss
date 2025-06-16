@@ -1,45 +1,45 @@
 .education {
-    padding: 100px 0px 80px;
+    padding: 6.25rem 0px 5rem;
     background-image: url('../assets/images/educ-bg.jpg');
     &__container {
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        gap: 300px;
+        gap: 18.75rem;
     }
     &__top {
-        width: 280px;
-        height: 80px;
+        width: 17.5rem;
+        height: 5rem;
         // background: #DCC5FF;
         display: flex;
         justify-content: center;
         align-items: center;
-        border-radius: 45px;
+        border-radius: 2.81rem;
         text-align: center;
         
         
     }
     &__bot {
-        width: 900px;
-        height: 240px;
+        width: 56.25rem;
+        height: 15rem;
         background: #DCC5FF;
-        border-radius: 45px;
+        border-radius: 2.81rem;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        gap: 40px;
+        gap: 2.5rem;
         box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.25);
     }
     &__descr1 {
         font-family: 'Comfortaa', sans-serif;
-        font-size: 22px;
+        font-size: 1.375rem;
         font-weight: 500;
     }
     &__descr2 {
         font-family: 'Comfortaa', sans-serif;
-        font-size: 18px;
+        font-size: 1.125rem;
         text-align: center;
     }
     &__button {
